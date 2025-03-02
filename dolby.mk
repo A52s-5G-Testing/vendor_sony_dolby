@@ -22,3 +22,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Include dolby vendor stuff
 $(call inherit-product, vendor/sony/dolby/dolby-vendor.mk)
+
+# Overlay-RRO
+PRODUCT_PACKAGES += \
+    SonyDolbyResCommon
