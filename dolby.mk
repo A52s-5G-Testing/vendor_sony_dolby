@@ -23,6 +23,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Include dolby vendor stuff
 $(call inherit-product, vendor/sony/dolby/dolby-vendor.mk)
 
+# LunarisDolby
+$(call inherit-product, packages/apps/LunarisDolby/lunarisdolby.mk)
+
 # Overlay-RRO
 PRODUCT_PACKAGES += \
     SonyDolbyResCommon
