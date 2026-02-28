@@ -20,5 +20,5 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.dolby.ds2.enabled=false
 
-# Include extra vendor audio stuff
+# Include dolby vendor stuff
 $(call inherit-product, vendor/sony/dolby/dolby-vendor.mk)
