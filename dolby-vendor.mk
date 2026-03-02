@@ -11,21 +11,21 @@ PRODUCT_COPY_FILES += \
     vendor/sony/dolby/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml
 
 PRODUCT_PACKAGES += \
-    libcodec2_soft_ac4dec \
-    libcodec2_soft_ddpdec \
-    libcodec2_soft_dolby \
-    libcodec2_store_dolby \
     libdapparamstorage \
-    libdeccfg \
-    libdlbdsservice \
     libdlbpreg \
-    liboem_specific \
     libdlbvol \
     libswdap \
     libswgamedap \
     libswvqe \
-    vendor.dolby.hardware.dms@2.0-impl \
     vendor.dolby.hardware.dms@2.0 \
+    libcodec2_soft_ac4dec \
+    libcodec2_soft_ddpdec \
+    libcodec2_soft_dolby \
+    libcodec2_store_dolby \
+    libdeccfg \
+    libdlbdsservice \
+    liboem_specific \
+    vendor.dolby.hardware.dms@2.0-impl \
     vendor.dolby.hardware.dms@2.0_system \
     vendor.dolby.hardware.dms@2.0-service \
     vendor.dolby.media.c2@1.0-service
